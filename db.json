@@ -26,8 +26,8 @@
       "id": 5
     },
     {
-      "nombre": "Rib eye",
-      "precio": 800,
+      "nombre": "Rib eye 123",
+      "precio": "900",
       "id": 6
     },
     {
