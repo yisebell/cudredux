@@ -36,14 +36,24 @@
       "id": 7
     },
     {
-      "nombre": "Jugo de piña",
-      "precio": 100,
+      "nombre": "producto4",
+      "precio": 200,
       "id": 8
     },
     {
-      "nombre": "Jugo de mandarina",
-      "precio": 200,
+      "nombre": "producto5",
+      "precio": 100,
       "id": 9
+    },
+    {
+      "nombre": "producto 6",
+      "precio": 100,
+      "id": 10
+    },
+    {
+      "nombre": "producto",
+      "precio": 100,
+      "id": 11
     }
   ]
 }

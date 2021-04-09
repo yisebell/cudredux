@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, useHistory } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 import Swal from 'sweetalert2';
 
 // Redux
@@ -8,7 +8,7 @@ import { borrarProductoAction, editarProductoAction } from '../actions/productoA
 
 const Producto = ({producto}) => {
 
-    const { nombre, precio, id } = producto;
+    const { nombre, precio } = producto;
 
     const dispatch = useDispatch();
     const history = useHistory(); // habilitar history para redireccion
@@ -53,7 +53,7 @@ const Producto = ({producto}) => {
                 <button
                     type="button"
                     className="btn btn-danger"
-                    onClick={() => confirmarEliminarProducto(id)}
+                    onClick={() => confirmarEliminarProducto(producto.id)}
                 >Eliminar</button>
             </td>
         </tr>

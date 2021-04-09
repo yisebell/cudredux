@@ -154,7 +154,7 @@ export function editarProductosAction(producto) {
         dispatch(editarProducto());
 
         try {
-            const respuesta = await clienteAxios.put(`/productos/${producto.id}`, producto);
+            await clienteAxios.put(`/productos/${producto.id}`, producto);
             // console.log(respuesta);
             dispatch(editarProductoExito(producto));
         } catch (error) {

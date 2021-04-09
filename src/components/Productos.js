@@ -12,8 +12,7 @@ const Productos = () => {
 
     useEffect(() => {
         // Consultar la api
-        const cargarProductos = () => dispatch(obtenerProductosAction());
-        cargarProductos();
+        dispatch(obtenerProductosAction());
         // eslint-disable-next-line
     }, []);
 
